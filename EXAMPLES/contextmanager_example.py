@@ -8,6 +8,16 @@ def spam(): # <1>
     print("...finishing")
 
 
+# @contextmanager
+# def smtp_opener(....):
+#     smtp_obj = blah
+#     yield smtp_obj
+#     smtp_obj.quit()
+#
+# with smtp_opener(....) as so:
+#     so.sendmail(...)
+
+
 with spam() as s:  # <4>
     print("s is", s)
     print("in the context block...")

@@ -6,6 +6,7 @@ class Spam(): # <1>
         print("I'm outta here...")
 
 with closing(Spam()) as c:
-    pass
+    print("In the block")
+    print("Doing interesting things...")
     # <3>
 

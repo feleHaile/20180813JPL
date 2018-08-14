@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" line="5" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/simple_with.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carddeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/carddeck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/play_cards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smtpopener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/context_closing.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/context_closing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/smtp_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/smtp_context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_with.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_with.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,9 +20,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple_with.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simple_with.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_with.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#70#100#0" expanded="true" />
+                <element signature="e#146#193#0" expanded="true" />
+                <element signature="e#173#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context_manager_class_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/context_manager_class_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <element signature="e#73#99#0" expanded="true" />
+                <element signature="e#140#177#0" expanded="true" />
+                <element signature="e#245#645#0" expanded="true" />
+                <element signature="e#676#694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smtp_context.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/smtp_context.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="17" column="75" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="75" />
+              <folding>
+                <element signature="e#22#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smtpopener.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smtpopener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="e#134#275#0" expanded="true" />
+                <element signature="e#317#340#0" expanded="true" />
+                <element signature="e#406#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context_closing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/context_closing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#110#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contextmanager_example.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/contextmanager_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" lean-forward="true" selection-start-line="10" selection-end-line="18" />
+              <folding>
+                <element signature="e#99#175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suppressing_exceptions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/suppressing_exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#22#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -65,6 +155,10 @@
         <option value="$PROJECT_DIR$/carddeck.py" />
         <option value="$PROJECT_DIR$/play_cards.py" />
         <option value="$PROJECT_DIR$/simple_with.py" />
+        <option value="$PROJECT_DIR$/smtpopener.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/smtp_context.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/context_closing.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" />
       </list>
     </option>
   </component>
@@ -106,7 +200,7 @@
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+              <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
@@ -164,8 +258,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.play_cards">
-    <configuration name="animal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.contextmanager_example">
+    <configuration name="context_closing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,17 +267,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/animal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/context_closing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="carddeck" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="context_manager_class_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,17 +285,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carddeck.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/context_manager_class_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="getters_vs_properties" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="contextmanager_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,29 +303,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getters_vs_properties.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="jokerdeck" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3jpl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jokerdeck.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,20 +331,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="simple_with" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3jpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_with.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.play_cards" />
-      <item itemvalue="Python.carddeck" />
-      <item itemvalue="Python.jokerdeck" />
-      <item itemvalue="Python.getters_vs_properties" />
-      <item itemvalue="Python.animal" />
+      <item itemvalue="Python.simple_with" />
+      <item itemvalue="Python.context_manager_class_example" />
+      <item itemvalue="Python.context_closing" />
+      <item itemvalue="Python.contextmanager_example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.contextmanager_example" />
+        <item itemvalue="Python.context_closing" />
+        <item itemvalue="Python.context_manager_class_example" />
+        <item itemvalue="Python.simple_with" />
         <item itemvalue="Python.play_cards" />
-        <item itemvalue="Python.carddeck" />
-        <item itemvalue="Python.animal" />
-        <item itemvalue="Python.getters_vs_properties" />
-        <item itemvalue="Python.jokerdeck" />
       </list>
     </recent_temporary>
   </component>
@@ -289,10 +383,10 @@
     <frame x="0" y="23" width="800" height="577" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29011554" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29011554" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28008753" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33479214" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -568,7 +662,81 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple_with.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#70#100#0" expanded="true" />
+            <element signature="e#146#193#0" expanded="true" />
+            <element signature="e#173#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/context_manager_class_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#73#99#0" expanded="true" />
+            <element signature="e#140#177#0" expanded="true" />
+            <element signature="e#245#645#0" expanded="true" />
+            <element signature="e#676#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/smtp_context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="75" />
+          <folding>
+            <element signature="e#22#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smtpopener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#134#275#0" expanded="true" />
+            <element signature="e#317#340#0" expanded="true" />
+            <element signature="e#406#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/context_closing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#110#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/contextmanager_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" lean-forward="true" selection-start-line="10" selection-end-line="18" />
+          <folding>
+            <element signature="e#99#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/suppressing_exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#22#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
