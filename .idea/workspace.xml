@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jokerdeck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carddeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/carddeck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/play_cards.py" afterDir="false" />
-    </list>
+    <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.394095">
+    <splitter split-orientation="horizontal" split-proportion="0.35943517">
       <split-first>
         <leaf>
           <file leaf-file-name="play_cards.py" pinned="false" current-in-tab="true">
@@ -123,8 +119,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="223" />
     <option name="width" value="800" />
     <option name="height" value="577" />
   </component>
@@ -341,7 +337,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="800" height="577" extended-state="0" />
+    <frame x="0" y="23" width="800" height="577" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29011554" />
       <window_info anchor="bottom" id="TODO" order="6" />
