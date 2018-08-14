@@ -44,7 +44,10 @@ j1.shuffle()
 print(j1.draw())
 print(j1.cards)
 
-j1.bark()
 
 print(JokerDeck.mro())
+
+print(d1.id)
+print(j1.id)
+j1.bark()
 

@@ -6,6 +6,10 @@ class Dog():
     def bark(self):
         print("Woof! Woof!")
 
+    @property
+    def id(self):
+        return "I AM DOG"
+
 
 class JokerDeck(CardDeck, Dog):
 

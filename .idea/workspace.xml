@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="" />
+    <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/getters_vs_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carddeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/carddeck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jokerdeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/jokerdeck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/play_cards.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +21,8 @@
           <file leaf-file-name="play_cards.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/play_cards.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+                <state relative-caret-position="249">
+                  <caret line="53" selection-start-line="53" selection-end-line="53" />
                   <folding>
                     <element signature="e#23#52#0" expanded="true" />
                   </folding>
@@ -29,9 +34,9 @@
             <entry file="file://$PROJECT_DIR$/carddeck.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
                   <folding>
-                    <marker date="1534203513148" expanded="true" signature="133:469" ph="..." />
+                    <marker date="1534260228876" expanded="true" signature="133:533" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -44,10 +49,11 @@
           <file leaf-file-name="carddeck.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/carddeck.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="167">
-                  <caret line="20" column="38" selection-start-line="15" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
+                <state relative-caret-position="-105">
+                  <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
                   <folding>
                     <element signature="e#170#254#0" expanded="true" />
+                    <element signature="e#330#339#0" expanded="true" />
                     <element signature="e#246#265#0" expanded="true" />
                     <element signature="e#271#378#0" expanded="true" />
                     <element signature="e#445#463#0" expanded="true" />
@@ -60,14 +66,30 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jokerdeck.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="jokerdeck.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jokerdeck.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="50">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="e#95#104#0" expanded="true" />
+                    <element signature="e#165#187#0" expanded="true" />
                     <element signature="e#122#216#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="getters_vs_properties.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/getters_vs_properties.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                  <folding>
+                    <element signature="e#101#191#0" expanded="true" />
+                    <element signature="e#215#236#0" expanded="true" />
+                    <element signature="e#311#352#0" expanded="true" />
+                    <element signature="e#391#408#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -116,6 +138,7 @@
         <option value="$PROJECT_DIR$/carddeck.py" />
         <option value="$PROJECT_DIR$/jokerdeck.py" />
         <option value="$PROJECT_DIR$/play_cards.py" />
+        <option value="$PROJECT_DIR$/getters_vs_properties.py" />
       </list>
     </option>
   </component>
@@ -215,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.play_cards">
+  <component name="RunManager" selected="Python.getters_vs_properties">
     <configuration name="carddeck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +252,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carddeck.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="getters_vs_properties" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3jpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getters_vs_properties.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,38 +329,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="use_jplutil4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3jpl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/use_jplutil4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.use_jplutil1" />
-      <item itemvalue="Python.use_jplutil4" />
       <item itemvalue="Python.play_cards" />
       <item itemvalue="Python.carddeck" />
       <item itemvalue="Python.jokerdeck" />
+      <item itemvalue="Python.getters_vs_properties" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.getters_vs_properties" />
         <item itemvalue="Python.play_cards" />
         <item itemvalue="Python.jokerdeck" />
         <item itemvalue="Python.carddeck" />
         <item itemvalue="Python.use_jplutil1" />
-        <item itemvalue="Python.use_jplutil4" />
       </list>
     </recent_temporary>
   </component>
@@ -338,11 +361,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="800" height="577" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29011554" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1487965" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -550,33 +574,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carddeck.py">
+    <entry file="file://$PROJECT_DIR$/play_cards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="249">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
-            <marker date="1534203513148" expanded="true" signature="133:469" ph="..." />
+            <element signature="e#23#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jokerdeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="50">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#95#104#0" expanded="true" />
+            <element signature="e#165#187#0" expanded="true" />
             <element signature="e#122#216#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play_cards.py">
+    <entry file="file://$PROJECT_DIR$/carddeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="-105">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
-            <element signature="e#23#52#0" expanded="true" />
+            <element signature="e#170#254#0" expanded="true" />
+            <element signature="e#330#339#0" expanded="true" />
+            <element signature="e#246#265#0" expanded="true" />
+            <element signature="e#271#378#0" expanded="true" />
+            <element signature="e#445#463#0" expanded="true" />
+            <element signature="e#865#883#0" expanded="true" />
+            <element signature="e#922#946#0" expanded="true" />
+            <element signature="e#979#993#0" expanded="true" />
+            <element signature="e#1055#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getters_vs_properties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#101#191#0" expanded="true" />
+            <element signature="e#215#236#0" expanded="true" />
+            <element signature="e#311#352#0" expanded="true" />
+            <element signature="e#391#408#0" expanded="true" />
           </folding>
         </state>
       </provider>

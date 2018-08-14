@@ -13,6 +13,10 @@ class CardDeck():
 
         self._create_deck()
 
+    @property
+    def id(self):
+        return "I AM CARDDECK"
+
     def _create_deck(self):
         self._cards = []
         for s in self.SUITS:
