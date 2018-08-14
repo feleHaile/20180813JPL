@@ -51,3 +51,21 @@ print(d1.id)
 print(j1.id)
 j1.bark()
 
+print(len(j1.cards))
+# j1.cards.__len__()
+
+
+print(len(j1))
+#  j1.__len__()
+
+print(j1.__len__())
+
+
+result = d1 + j1
+print(result)
+print(len(result))
+print(result.draw())
+print(d1)
+print(j1)
+print(str(j1))
+

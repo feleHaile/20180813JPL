@@ -57,3 +57,20 @@ class CardDeck():
     @staticmethod
     def beep():
         print("Beep! ")
+
+    def __len__(self):
+        return len(self._cards)
+
+
+    def __add__(self, other):
+        my_type = type(self)
+        temp = my_type(self.dealer)
+        temp._cards = self._cards + other._cards
+        return temp
+
+    def __str__(self):
+        my_type = type(self)
+        my_name = my_type.__name__
+        return f"{my_name}({self.dealer}, {len(self)})"
+
+
