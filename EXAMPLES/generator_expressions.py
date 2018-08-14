@@ -9,7 +9,7 @@ print("ufruits:", " ".join(ufruits))
 print("afruits:", " ".join(afruits))
 print()
 
-values = [ 2, 42, 18, 92, "boom", ['a', 'b', 'c'] ]
+values = [ 2, 42, 18, 92, "boom", "123", "5", ['a', 'b', 'c'] ]
 doubles = (v * 2 for v in values)
 
 print("doubles:", end=' ')
@@ -17,7 +17,7 @@ for d in doubles:
     print(d, end=' ')
 print("\n")
 
-nums = (int(s) for s in values if isinstance(s, int))
+nums = (s for s in values if isinstance(s, int))
 for n in nums:
     print(n, end=' ')
 print("\n")
