@@ -11,7 +11,7 @@ with open('../DATA/words.txt') as words_in:
 random.shuffle(WORDS) # <3>
 
 def my_task(word): # <4>
-    return word.upper()
+    return len(word), word.upper()[:3]
 
 if __name__ == '__main__':
     ppool = Pool(POOL_SIZE) # <5>

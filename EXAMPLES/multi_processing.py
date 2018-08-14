@@ -38,6 +38,7 @@ class Worker(Process):  # <4>
                 break
 
 if __name__ == '__main__':
+    # if run as script, and not imported:
     q = Queue()  # <11>
 
     manager = Manager()  # <12>

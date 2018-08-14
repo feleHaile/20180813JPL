@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/smtpopener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/context_closing.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/context_closing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/smtp_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/smtp_context.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_with.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_with.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/multi_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/multi_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/proc_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/proc_pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/thr_noclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/thr_noclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/thr_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/thr_simple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,47 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple_with.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple_with.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#70#100#0" expanded="true" />
-                <element signature="e#146#193#0" expanded="true" />
-                <element signature="e#173#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="context_manager_class_example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/context_manager_class_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="e#73#99#0" expanded="true" />
-                <element signature="e#140#177#0" expanded="true" />
-                <element signature="e#245#645#0" expanded="true" />
-                <element signature="e#676#694#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smtp_context.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/smtp_context.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="17" column="75" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="75" />
-              <folding>
-                <element signature="e#22#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="smtpopener.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smtpopener.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,13 +57,115 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suppressing_exceptions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="suppressing_exceptions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EXAMPLES/suppressing_exceptions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#22#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clear_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ANSWERS/clear_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carddeck.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/carddeck.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#1167#1190#0" expanded="true" />
+                <element signature="e#1231#1356#0" expanded="true" />
+                <element signature="e#1389#1500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thr_noclass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_noclass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#23#51#0" expanded="true" />
+                <element signature="e#92#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thr_simple.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_simple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="e#23#57#0" expanded="true" />
+                <element signature="e#155#209#0" expanded="true" />
+                <element signature="e#234#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multi_processing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/multi_processing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+              <folding>
+                <element signature="e#23#36#0" expanded="true" />
+                <element signature="e#254#403#0" expanded="true" />
+                <element signature="e#443#499#0" expanded="true" />
+                <element signature="e#601#735#0" expanded="true" />
+                <element signature="e#771#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proc_pool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/proc_pool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="e#23#36#0" expanded="true" />
+                <element signature="e#244#278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thr_pool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_pool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <folding>
+                <element signature="e#23#36#0" expanded="true" />
+                <element signature="e#257#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thr_pool_lcbo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_pool_lcbo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="e#22#66#0" expanded="true" />
+                <element signature="e#614#930#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +219,10 @@
         <option value="$PROJECT_DIR$/EXAMPLES/smtp_context.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/context_closing.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/thr_noclass.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/thr_simple.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/multi_processing.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/proc_pool.py" />
       </list>
     </option>
   </component>
@@ -200,6 +264,11 @@
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
+              <item name="ANSWERS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
               <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,7 +295,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jstrick/Desktop/py3jpl/refresher_io.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jstrick/Desktop/py3jpl/carddeck.py" />
     <property name="last_opened_file_path" value="$USER_HOME$/.pyenv/versions/3.5.0/bin/python3.5" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.searchVisible" value="true" />
@@ -258,8 +327,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.contextmanager_example">
-    <configuration name="context_closing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.thr_pool_lcbo">
+    <configuration name="multi_processing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,13 +340,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/context_closing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/multi_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="context_manager_class_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="proc_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,13 +358,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/context_manager_class_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/proc_pool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="contextmanager_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thr_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,13 +376,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/thr_pool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="play_cards" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thr_pool_lcbo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,17 +390,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/play_cards.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/thr_pool_lcbo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="simple_with" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="thr_simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,30 +408,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_with.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/thr_simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.play_cards" />
-      <item itemvalue="Python.simple_with" />
-      <item itemvalue="Python.context_manager_class_example" />
-      <item itemvalue="Python.context_closing" />
-      <item itemvalue="Python.contextmanager_example" />
+      <item itemvalue="Python.thr_simple" />
+      <item itemvalue="Python.multi_processing" />
+      <item itemvalue="Python.proc_pool" />
+      <item itemvalue="Python.thr_pool" />
+      <item itemvalue="Python.thr_pool_lcbo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.contextmanager_example" />
-        <item itemvalue="Python.context_closing" />
-        <item itemvalue="Python.context_manager_class_example" />
-        <item itemvalue="Python.simple_with" />
-        <item itemvalue="Python.play_cards" />
+        <item itemvalue="Python.thr_pool_lcbo" />
+        <item itemvalue="Python.thr_pool" />
+        <item itemvalue="Python.proc_pool" />
+        <item itemvalue="Python.multi_processing" />
+        <item itemvalue="Python.thr_simple" />
       </list>
     </recent_temporary>
   </component>
@@ -381,17 +450,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="800" height="577" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29011554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29011554" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33479214" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39824945" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -401,6 +469,25 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.38512036" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.29011554" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39824945" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -640,27 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carddeck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="71" column="28" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="28" />
-          <folding>
-            <element signature="e#170#254#0" expanded="true" />
-            <element signature="e#330#339#0" expanded="true" />
-            <element signature="e#321#444#0" expanded="true" />
-            <element signature="e#246#265#0" expanded="true" />
-            <element signature="e#271#378#0" expanded="true" />
-            <element signature="e#445#463#0" expanded="true" />
-            <element signature="e#865#883#0" expanded="true" />
-            <element signature="e#922#946#0" expanded="true" />
-            <element signature="e#979#993#0" expanded="true" />
-            <element signature="e#1055#1062#0" expanded="true" />
-            <element signature="e#1167#1190#0" expanded="true" />
-            <element signature="e#1231#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple_with.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
@@ -734,6 +800,92 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#22#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANSWERS/clear_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carddeck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#1167#1190#0" expanded="true" />
+            <element signature="e#1231#1356#0" expanded="true" />
+            <element signature="e#1389#1500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_noclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+            <element signature="e#92#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#23#57#0" expanded="true" />
+            <element signature="e#155#209#0" expanded="true" />
+            <element signature="e#234#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/multi_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+            <element signature="e#254#403#0" expanded="true" />
+            <element signature="e#443#499#0" expanded="true" />
+            <element signature="e#601#735#0" expanded="true" />
+            <element signature="e#771#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/proc_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+            <element signature="e#244#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+            <element signature="e#257#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_pool_lcbo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="e#22#66#0" expanded="true" />
+            <element signature="e#614#930#0" expanded="true" />
           </folding>
         </state>
       </provider>
