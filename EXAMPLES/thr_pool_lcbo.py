@@ -33,6 +33,7 @@ p = Pool(POOL_SIZE)  # <9>
 results = p.map(fetch_data, search_terms)  # <10>
 
 for search_term, result in zip(search_terms, results):  # <11>
+    # LOG HERE!!
     print("{}:".format(search_term.upper()))
     if result:
         pprint(result)

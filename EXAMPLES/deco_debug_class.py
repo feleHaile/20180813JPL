@@ -4,6 +4,7 @@ class debugger(object): # <1>
     def __init__(self,func):  # <2>
         self._func = func
 
+    #  __call__ is the imposter function
     def __call__( self, *args, **kwargs ):  # <3>
 
         print("*" * 40) # <4>

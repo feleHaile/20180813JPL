@@ -6,6 +6,7 @@ strings = ['wombat', 'koala', 'kookaburra', 'blue-ringed octopus']
 result = [s.upper() for s in strings]  # <1>
 print(result)
 
+#                 func        iterable
 result = list(map(str.upper, strings)) # <2>
 print(result)
 

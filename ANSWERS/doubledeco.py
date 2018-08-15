@@ -7,7 +7,9 @@ def double_return(old_func):
 
     @wraps(old_func)
     def new_func(*args, **kwargs):
+        print("Hello")
         result = old_func(*args, **kwargs)
+        print("Goodbye")
         return result * 2
 
     return new_func

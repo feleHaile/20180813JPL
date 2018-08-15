@@ -5,7 +5,7 @@ import re
 from functools import partial
 
 count_by = partial(range, 0, 25)  # <1>
-
+print((list(count_by())))  # <2>
 print((list(count_by(1))))  # <2>
 print((list(count_by(3))))  # <2>
 print((list(count_by(5))))  # <2>

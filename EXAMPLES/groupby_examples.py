@@ -7,6 +7,7 @@ with open('../DATA/words.txt') as words_in:  # <1>
     all_words = (w.rstrip() for w in words_in)  # <2>
 
     g = groupby(all_words, key=lambda e: e[0])  # <3>
+    # {'a': ['aardvark', 'aardwolf', ...], 'b':['baa', 'baby', ...]}
 
     counts = {letter: len(list(wlist)) for letter, wlist in g} # <4>
 

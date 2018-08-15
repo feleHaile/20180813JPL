@@ -19,11 +19,15 @@ def xopen_str(str, mode="r"):
 def xopen_bytes(bytes, mode="r"):
     return open(bytes.decode(), mode)
 
+@xopen.register(bytes)  # <4>
+def xopen_bytes2(bytes, mode="r"):
+    return open(bytes.decode(), mode)
+
 
 mary_in = open('../DATA/mary.txt')  # <5>
 
 
-for x in mary_in, '../DATA/mary.txt', b'../DATA/mary.txt', 52:
+for x in mary_in, '../DATA/mary.txt', b'../DATA/mary.txt', 52, ['a', 1, None]:
     try:
         file_in = xopen(x)  # <6>
         result = file_in.read()

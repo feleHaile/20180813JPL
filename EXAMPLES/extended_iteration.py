@@ -10,7 +10,7 @@ for letter in chain(spam, ham):  # <1>
     print(letter, end=' ')
 print("\n")
 
-eggs = [spam, ham]
+eggs = [spam, ham]  # [['a','b','c], ['d', 'e', 'f']]
 
 for letter in chain.from_iterable(eggs):  # <2>
     print(letter, end=' ')

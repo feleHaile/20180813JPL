@@ -26,3 +26,7 @@ print("result is", result)
 # join + upper case
 result = reduce(add, list(map(str.upper, strings)), "")  # <5>
 print("result is", result)
+
+result = ''.join(s.upper() for s in strings)
+print("other result is", result)
+
