@@ -7,3 +7,4 @@ with open('../DATA/presidents.csv') as presidents_in:
     rdr = csv.DictReader(presidents_in, fieldnames=field_names)  # <2>
     for row in rdr:  # <3>
         print('{firstname:25s} {lastname:12s} {party}'.format(**row))  # <4>
+        # print(row['firstname'], row['lastname'])
