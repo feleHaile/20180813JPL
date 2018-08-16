@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f33b57b3-7d30-40d2-a8eb-52ba626186af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/fred.c" beforeDir="false" afterPath="$PROJECT_DIR$/fred.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atexit_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/flask_define_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/flask_define_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/flask_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/flask_hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/flask_sample_blueprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/flask_sample_blueprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/flask_url_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/flask_url_for.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/flask_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/flask_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/sa_dbconnect.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/sa_dbconnect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/sa_movie_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/sa_movie_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/sa_movie_populate_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/sa_movie_populate_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/sa_movie_search_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/sa_movie_search_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_alchemy_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sql_alchemy_links.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,125 +30,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fred.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fred.c">
+      <file leaf-file-name="flask_http_methods.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_http_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ctypes_fred.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ctypes_fred.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="e#23#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="py_primes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_primes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#51#323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cy_primes.pyx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cy_primes.pyx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding>
-                <element signature="e#80#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="numba_primes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/numba_primes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="225">
               <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cy_primes_main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cy_primes_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
-                <element signature="e#23#34#0" expanded="true" />
+                <element signature="e#138#237#0" expanded="true" />
+                <element signature="e#312#346#0" expanded="true" />
+                <element signature="e#445#504#0" expanded="true" />
+                <element signature="e#609#669#0" expanded="true" />
+                <element signature="e#699#730#0" expanded="true" />
+                <element signature="e#754#786#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smtpopener.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smtpopener.py">
+      <file leaf-file-name="flask_http_responses.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_http_responses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="182">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
-                <element signature="e#134#275#0" expanded="true" />
-                <element signature="e#317#340#0" expanded="true" />
-                <element signature="e#406#436#0" expanded="true" />
+                <element signature="e#118#261#0" expanded="true" />
+                <element signature="e#305#330#0" expanded="true" />
+                <element signature="e#524#585#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play_cards.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/play_cards.py">
+      <file leaf-file-name="flask_url_for.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_url_for.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="86">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="29" />
               <folding>
-                <element signature="e#23#52#0" expanded="true" />
+                <element signature="e#311#424#0" expanded="true" />
+                <element signature="e#464#577#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getters_vs_properties.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getters_vs_properties.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="function_examples.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function_examples.py">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="168">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#298#302#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sorting_examples.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorting_examples.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="e#48#71#0" expanded="true" />
+                <element signature="e#193#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="script_template.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script_template.py">
+      <file leaf-file-name="flask_sample_blueprint.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_sample_blueprint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flask_blueprint_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_blueprint_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#22#75#1" expanded="true" />
-                <element signature="e#431#513#0" expanded="true" />
+                <element signature="e#22#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serving.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/werkzeug/serving.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3885">
+              <caret line="718" column="8" selection-start-line="718" selection-start-column="8" selection-end-line="718" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="atexit_example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atexit_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -156,19 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/use_jplutil2.py" />
-        <option value="$PROJECT_DIR$/use_jplutil3.py" />
-        <option value="$PROJECT_DIR$/use_jplutil4.py" />
-        <option value="$PROJECT_DIR$/jpl/__init__.py" />
-        <option value="$PROJECT_DIR$/use_jplutil1.py" />
-        <option value="$PROJECT_DIR$/jokerdeck.py" />
-        <option value="$PROJECT_DIR$/getters_vs_properties.py" />
-        <option value="$PROJECT_DIR$/animal.py" />
-        <option value="$PROJECT_DIR$/carddeck.py" />
-        <option value="$PROJECT_DIR$/play_cards.py" />
-        <option value="$PROJECT_DIR$/simple_with.py" />
-        <option value="$PROJECT_DIR$/smtpopener.py" />
-        <option value="$PROJECT_DIR$/EXAMPLES/smtp_context.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/context_closing.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/contextmanager_example.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/thr_noclass.py" />
@@ -207,10 +192,23 @@
         <option value="$PROJECT_DIR$/EXAMPLES/six_modules.py" />
         <option value="$PROJECT_DIR$/fred.c" />
         <option value="$PROJECT_DIR$/script_template.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/sa_dbconnect.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/sa_movie_models.py" />
+        <option value="$PROJECT_DIR$/class_properties.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/sa_movie_populate_db.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/sa_movie_search_db.py" />
+        <option value="$PROJECT_DIR$/sql_alchemy_links.txt" />
+        <option value="$PROJECT_DIR$/EXAMPLES/flask_hello.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/flask_urls.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/flask_define_views.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/flask_url_for.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/baseconfig.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/flask_sample_blueprint.py" />
+        <option value="$PROJECT_DIR$/atexit_example.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="23" />
     <option name="width" value="1257" />
@@ -249,34 +247,20 @@
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="ANSWERS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="DATA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
               <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="jpl" type="462c0819:PsiDirectoryNode" />
+              <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
+              <item name="spamhammer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="eng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="jpl" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
+              <item name="spamhammer" type="462c0819:PsiDirectoryNode" />
+              <item name="spamhammer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py3jpl" type="b2602c69:ProjectViewProjectNode" />
@@ -325,26 +309,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cy_primes_main">
-    <configuration name="count_all_lines" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3jpl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANSWERS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANSWERS/count_all_lines.py" />
-      <option name="PARAMETERS" value="../DATA/words.txt ../DATA/parrot.txt ../DATA/alice.txt ../DATA/mary.txt" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ctypes_fred" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.atexit_example">
+    <configuration name="atexit_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,49 +322,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctypes_fred.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/atexit_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="cy_primes_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3jpl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cy_primes_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="py_primes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3jpl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_primes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="six_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flask_blueprint_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3jpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,26 +340,80 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/six_basics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/flask_blueprint_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="flask_http_responses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3jpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/flask_http_responses.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="flask_url_for" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3jpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/flask_url_for.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="serving" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3jpl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/werkzeug" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/werkzeug/serving.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.count_all_lines" />
-      <item itemvalue="Python.six_basics" />
-      <item itemvalue="Python.ctypes_fred" />
-      <item itemvalue="Python.py_primes" />
-      <item itemvalue="Python.cy_primes_main" />
+      <item itemvalue="Python.flask_http_responses" />
+      <item itemvalue="Python.flask_url_for" />
+      <item itemvalue="Python.flask_blueprint_demo" />
+      <item itemvalue="Python.serving" />
+      <item itemvalue="Python.atexit_example" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cy_primes_main" />
-        <item itemvalue="Python.py_primes" />
-        <item itemvalue="Python.ctypes_fred" />
-        <item itemvalue="Python.six_basics" />
-        <item itemvalue="Python.count_all_lines" />
+        <item itemvalue="Python.atexit_example" />
+        <item itemvalue="Python.serving" />
+        <item itemvalue="Python.flask_blueprint_demo" />
+        <item itemvalue="Python.flask_url_for" />
+        <item itemvalue="Python.flask_http_responses" />
       </list>
     </recent_temporary>
   </component>
@@ -447,13 +431,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1257" height="773" extended-state="0" />
+    <frame x="0" y="23" width="800" height="577" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37740692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31322208" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822758" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60643184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44857767" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,9 +454,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.31947485" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.31509846" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.37740692" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31322208" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -491,235 +476,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/web_content_consumer_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#22#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/read_pdf_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/grab_data_from_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/post_to_rest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/other_web_service_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ANSWERS/noaa_precip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#50#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/sel_expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/sel_retrieving_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/sel_following_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/sel_entering_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/sel_finding_elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <folding>
-            <element signature="e#22#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/logging_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEMP/formatted.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEMP/exception.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEMP/simple.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/logging_formatted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/logging_exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/logging_altdest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#22#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/thr_pool_lcbo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="e#22#66#0" expanded="true" />
-            <element signature="e#614#930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lame_decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="24" />
-          <folding>
-            <element signature="e#85#229#0" expanded="true" />
-            <element signature="e#144#188#0" expanded="true" />
-            <element signature="e#263#541#0" expanded="true" />
-            <element signature="e#184#278#0" expanded="true" />
-            <element signature="e#322#358#0" expanded="true" />
-            <element signature="e#399#426#0" expanded="true" />
-            <element signature="e#908#1137#0" expanded="true" />
-            <element signature="e#937#1117#0" expanded="true" />
-            <element signature="e#1024#1084#0" expanded="true" />
-            <element signature="e#903#907#0" expanded="true" />
-            <element signature="e#937#941#0" expanded="true" />
-            <element signature="e#969#973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typing_examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="e#57#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/deco_debug_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#97#114#0" expanded="true" />
-            <element signature="e#175#468#0" expanded="true" />
-            <element signature="e#526#566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/decorama.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="26" />
-          <folding>
-            <element signature="e#22#566#1" expanded="true" />
-            <element signature="e#651#1112#0" expanded="true" />
-            <element signature="e#977#1087#0" expanded="true" />
-            <element signature="e#1146#1756#0" expanded="true" />
-            <element signature="e#1478#1736#0" expanded="true" />
-            <element signature="e#1558#1707#0" expanded="true" />
-            <element signature="e#1789#1978#1" expanded="true" />
-            <element signature="e#2029#2111#0" expanded="true" />
-            <element signature="e#2162#2271#0" expanded="true" />
-            <element signature="e#2303#2570#1" expanded="true" />
-            <element signature="e#2611#2630#0" expanded="true" />
-            <element signature="e#2683#2948#0" expanded="true" />
-            <element signature="e#2763#2919#0" expanded="true" />
-            <element signature="e#3082#3260#0" expanded="true" />
-            <element signature="e#3481#3778#0" expanded="true" />
-            <element signature="e#3698#3717#0" expanded="true" />
-            <element signature="e#3806#4225#0" expanded="true" />
-            <element signature="e#4038#4205#0" expanded="true" />
-            <element signature="e#4122#4140#0" expanded="true" />
-            <element signature="e#4336#4431#0" expanded="true" />
-            <element signature="e#4741#4898#1" expanded="true" />
-            <element signature="e#4940#5033#0" expanded="true" />
-            <element signature="e#5299#5394#1" expanded="true" />
-            <element signature="e#5435#5498#0" expanded="true" />
-            <element signature="e#5543#5597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ANSWERS/doubledeco.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -881,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/ctypes_fred.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
@@ -891,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/py_primes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#51#323#0" expanded="true" />
           </folding>
@@ -901,7 +657,7 @@
     <entry file="file://$PROJECT_DIR$/cy_primes.pyx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding>
             <element signature="e#80#84#0" expanded="true" />
           </folding>
@@ -911,7 +667,7 @@
     <entry file="file://$PROJECT_DIR$/cy_primes_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#23#34#0" expanded="true" />
           </folding>
@@ -921,7 +677,7 @@
     <entry file="file://$PROJECT_DIR$/numba_primes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -940,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/function_examples.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-235">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -950,7 +706,7 @@
     <entry file="file://$PROJECT_DIR$/smtpopener.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#134#275#0" expanded="true" />
             <element signature="e#317#340#0" expanded="true" />
@@ -961,12 +717,244 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
+        <state relative-caret-position="3">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="e#22#75#1" expanded="true" />
             <element signature="e#431#513#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_autoload_presidents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_dbconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_create_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_properties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#70#82#0" expanded="true" />
+            <element signature="e#127#142#0" expanded="true" />
+            <element signature="e#200#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_query_presidents.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_movie_search_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#22#58#0" expanded="true" />
+            <element signature="e#161#258#0" expanded="true" />
+            <element signature="e#277#425#0" expanded="true" />
+            <element signature="e#456#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_movie_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#22#72#1" expanded="true" />
+            <element signature="e#73#139#0" expanded="true" />
+            <element signature="e#644#707#0" expanded="true" />
+            <element signature="e#741#810#0" expanded="true" />
+            <element signature="e#1198#1251#0" expanded="true" />
+            <element signature="e#1285#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_movie_create_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#22#75#1" expanded="true" />
+            <element signature="e#76#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_alchemy_links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret column="80" selection-start-column="80" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/sa_movie_populate_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#22#66#1" expanded="true" />
+            <element signature="e#67#103#0" expanded="true" />
+            <element signature="e#439#604#0" expanded="true" />
+            <element signature="e#836#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#113#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#22#51#1" expanded="true" />
+            <element signature="e#134#300#0" expanded="true" />
+            <element signature="e#391#491#0" expanded="true" />
+            <element signature="e#564#668#0" expanded="true" />
+            <element signature="e#725#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_define_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#22#45#0" expanded="true" />
+            <element signature="e#136#252#0" expanded="true" />
+            <element signature="e#330#592#0" expanded="true" />
+            <element signature="e#1152#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_http_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#138#237#0" expanded="true" />
+            <element signature="e#312#346#0" expanded="true" />
+            <element signature="e#445#504#0" expanded="true" />
+            <element signature="e#609#669#0" expanded="true" />
+            <element signature="e#699#730#0" expanded="true" />
+            <element signature="e#754#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_http_responses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#118#261#0" expanded="true" />
+            <element signature="e#305#330#0" expanded="true" />
+            <element signature="e#524#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_url_for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#311#424#0" expanded="true" />
+            <element signature="e#464#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#48#71#0" expanded="true" />
+            <element signature="e#193#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/spamhammer/spamhammer/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#298#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/anaconda3-5.0.0/lib/python3.6/site-packages/werkzeug/serving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="718" column="8" selection-start-line="718" selection-start-column="8" selection-end-line="718" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_sample_blueprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/flask_blueprint_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#22#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atexit_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

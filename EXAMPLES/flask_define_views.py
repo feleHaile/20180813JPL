@@ -27,7 +27,7 @@ def president_by_last_name(last_name):
         May return info for more than one president
     """
     html_content = ''
-    for i in xrange(1, 45):
+    for i in range(1, 46):
         p = President(i)
         if p.last_name.lower() == last_name.lower():
             html_content += format_html_for_president(i)

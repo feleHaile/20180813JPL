@@ -1,0 +1,1 @@
+http://docs.sqlalchemy.org/en/latest/orm/loading_relationships.html#lazy-loading

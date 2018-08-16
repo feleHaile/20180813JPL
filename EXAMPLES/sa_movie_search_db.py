@@ -21,7 +21,7 @@ def setup():
 
 def do_query_1(session):
     for director in session.query(Director):
-        if director.first_name == 'Steven':
+        if director.first_name == 'Robert':
             director.first_name = 'Bob'
         print(director.first_name, director.last_name)
         for movie in director.movies:

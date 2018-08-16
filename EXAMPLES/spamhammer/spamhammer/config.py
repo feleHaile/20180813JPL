@@ -3,7 +3,7 @@
 #
 import os
 
-class Config(object):
+class BaseConfig(object):
     SECRET_KEY = 'My hovercraft is full of eels'
     SPAMHAMMER_MAIL_PREFIX = '[SpamHammer]'
     SPAMHAMMER_MAIL_SENDER = 'SpamHammer Admin <admin@spamhammer.com>'
@@ -12,7 +12,7 @@ class Config(object):
     def init_app(app):
         pass
 
-class DevConfig(Config):
+class DevConfig(BaseConfig):
     DEBUG = True
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
@@ -22,7 +22,7 @@ class DevConfig(Config):
 
     DB_URI = os.environ.get('DEV_DATABASE_URL')
 
-class ProdConfig(Config):
+class ProdConfig(BaseConfig):
     DB_URI = os.environ.get('DATABASE_URL')
 
 # not really needed...

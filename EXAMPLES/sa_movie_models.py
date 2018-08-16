@@ -28,7 +28,7 @@ class Director(MOVIE_BASE):
         self.first_name = first_name
 
     def __repr__(self):
-        return "<Director ({0} {1})>".format(self.first_name, self.last_name)
+        return "Director ({0} {1})".format(self.first_name, self.last_name)
 
 class Movie(MOVIE_BASE):
     '''A Movie'''

@@ -1,0 +1,8 @@
+requests
+six
+flask
+flask-restful
+flask-bootstrap
+db
+sqlalchemy
+singledispatch

@@ -11,7 +11,7 @@ def index():
     <h2><a href="{}">Page 2</a></h2>
     '''.format(url_for('page1'), url_for('page2'))
 
-@app.route('/page1')
+@app.route('/wombat')
 def page1():
     return """
     <h1>Page 1</h1>

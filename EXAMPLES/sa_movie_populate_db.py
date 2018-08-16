@@ -21,8 +21,10 @@ HITCHCOCK_MOVIES = [
 
 def main():
     session = setup()
-    add_director(session, ('Robert', 'Altman'), ALTMAN_MOVIES)
-    add_director(session, ('Alfred', 'Hitchcock'), HITCHCOCK_MOVIES)
+    add_director(session, 'Robert', 'Altman', ALTMAN_MOVIES)
+    add_director(session, 'Alfred', 'Hitchcock', HITCHCOCK_MOVIES)
+    session.commit()
+
     session.close()
 
 def setup():
@@ -33,16 +35,15 @@ def setup():
     SESSION = sessionmaker(bind=engine)
     return SESSION()
 
-def add_director(session, director, movies):
+def add_director(session, first_name, last_name, movies):
 
-    d = Director(*director)
+    d = Director(first_name, last_name)
     
     for movie_name, year in movies:
         m = Movie(movie_name, year)
         d.movies.append(m)
     
     session.add(d)
-    session.commit()
 
 if __name__ == '__main__':
     main()

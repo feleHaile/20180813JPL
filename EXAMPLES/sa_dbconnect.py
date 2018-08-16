@@ -11,7 +11,9 @@ engine = create_engine(
 
 conn = engine.connect()
 
-s = conn.execute('select * from presidents where termnum = 16')
+term = 16
+
+s = conn.execute('select * from presidents where termnum = ?', term)
 
 row = s.fetchone()
 
