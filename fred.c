@@ -22,7 +22,7 @@ hello() {
     printf("Hello, world\n");
 }
 
-char*
+char *
 get_skit(int which) {
     which--;  // allow for starting at 1
     if ( (which < 0) || (which> num_skits) ) {

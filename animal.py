@@ -1,20 +1,13 @@
-#!/usr/bin/env python
-from abc import ABCMeta, abstractmethod
+#!/usr/bin/env python3
+# (c) 2015 John Strickler
+#
+from flask import g
 
-class Animal(metaclass=ABCMeta):
-    def __init__(self, animal_type):
-        self._type = animal_type
-
-    @abstractmethod
-    def make_noise(self):
-        pass
+def set_animal(animal):
+    g.animal = animal
 
 
 
-class Insect(Animal):
-    pass
 
 
-i = Insect('scarab beetle')
 
-print(i)

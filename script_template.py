@@ -7,6 +7,7 @@ import sys
 # other imports  (standard library, standard non-library, local)
 
 # constants (AKA global variables -- keep these to a minimum)
+MAX_PRIMES = 5000
 
 # main function
 def main(args):
@@ -27,5 +28,5 @@ def function1():
     """
     pass
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # if run as a script, not if imported as a module
     main(sys.argv[1:])  # Pass command line args (minus script name) to main()
